@@ -23,7 +23,7 @@ set_target_properties(test_main_cli PROPERTIES
   INCLUDE_DIRECTORIES ${Boost_INCLUDE_DIR}
 )
 
-target_link_libraries(helloworld_cli cpp01_2)
+target_link_libraries(helloworld_cli helloworld)
 
 target_link_libraries(test_main_cli
   ${Boost_LIBRARIES}
